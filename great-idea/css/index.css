@@ -1,66 +1,145 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+.container {
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+      width: 80%;
+      margin: auto;
+
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+header .title {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 68px;
+	text-align: center;
+	margin: 0px 15px;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+header .title button {
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 6px 40px;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+
+footer {
+	margin-top: 50px;
+	text-align: center;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.navigation {
+
+      display: flex;
+      font-size: 20px;
+      margin: 15px;
+      justify-content: space-evenly;
+
+}
+
+.navigation a {
+
+      display: flex;
+      text-decoration: none;
+      color: darkgrey;
+
+}
+
+
+.title {
+
+     margin: 20px 30px;
+
+}
+
+.title, h1 {
+
+      position: absolute;
+      text-align: center;
+      font-size: 60px;
+
+}
+
+
+.w3-button{
+
+      border: 1px solid black;
+      padding: 2px 2px; 
+      font-size: 30px;
+      width: 20px;
+}
+
+.title, .image2 {
+
+      position: relative;
+      padding-left: 100px;
+}
+
+
+.contentSection {
+
+      display: flex;
+      
+
+}
+
+.Features {
+
+      display: inline-block;
+      font-size: 20px;
+}
+
+.About  {
+
+      display: inline-block;
+      font-size: 20px;
+
+}
+
+
+.middle {
+
+      display: flex;
+}
+
+
+.contentSection2 {
+
+      display: flex;
+      font-size: 20px;
+        
+        
+
+}
+
+
+.Services {
+
+      display: inline-block;
+      line-height: 17px;
+      width: 30%
+
+
+}
+
+.Products {
+
+      display: inline-block;
+	line-height: 17px;
+	width: 30%
+
+
+
+
+}
+
+.Vision {
+
+      display: inline-block;
+	line-height: 15px;
+	width: 30%
+
+
+}
+
